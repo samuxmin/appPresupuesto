@@ -4,7 +4,7 @@ const ingresos = [
 ];
 
 const egresos = [
-    new Egreso('Patineta', 45),
+    new Egreso('Comprar Venezuela', 45),
     new Egreso('Comida', 500)
 
 ]
