@@ -126,7 +126,7 @@ function agregarDato(){
             cargarIngresos();
         }
         else if(tipo.value === 'egreso'){
-            egresos.push(new Egreso(descripcion.value + valor.value));
+            egresos.push(new Egreso(descripcion.value, + valor.value));
             cargarCabecero();
             cargarEgresos();
         }
