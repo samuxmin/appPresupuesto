@@ -4,7 +4,7 @@ const ingresos = [
 ];
 
 const egresos = [
-    new Egreso('Patineta', 45),
+    new Egreso('Comprar Venezuela', 45),
     new Egreso('Comida', 500)
 
 ]
@@ -96,8 +96,8 @@ const crearEgresoHTML = (egreso) =>{
         <div class="elemento_porcentaje">${formatoPorcentaje(egreso.valor/totalEgresos())}</div>
         <div class="elemento_eliminar">
             <button class="elemento_eliminar--btn">
-                <img src="./css/cancel.svg" alt="Eliminar" width="20px"
-                onclick='eliminarEgreso(${egreso.id})'></img>
+            <ion-icon name="close-circle-outline"
+            onclick='eliminarEgreso(${egreso.id})'></ion-icon>
             </button>
         </div>
     </div>
